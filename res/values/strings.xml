@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Dice Roll</string>
+    <string name="action_settings">Settings</string>
+    <string name="tableHeader_number">Number</string>
+    <string name="tableHeader_type">Type</string>
+    <string name="tableHeader_modifier">Modifer</string>
+    <string name="tableHeader_total">Total</string>
+    
+    <string name="roll_button">Roll Dice</string>
+    <string name="roll_add">Add</string>
+    <string name="roll_reset">Reset</string>
+    
+    <string-array name="dice_array">
+        <item>d4</item>
+        <item>d6</item>
+        <item>d8</item>
+        <item>d10</item>
+        <item>d12</item>
+        <item>d20</item>
+        <item>d100</item>
+    </string-array>
+
+</resources>
