@@ -76,4 +76,15 @@ public class DiceRollActivity extends Activity {
         }
         return total;
 	}
+	
+	public void reset(View view) {
+		EditText diceNumEditText = (EditText) findViewById(R.id.diceNumber);
+        Spinner diceTypeSpinner = (Spinner) findViewById(R.id.diceType);
+        EditText diceModEditText = (EditText) findViewById(R.id.diceMod);
+        TextView rollTotalTextView = (TextView) findViewById(R.id.diceTotal);
+        diceNumEditText.setText("1");
+        diceModEditText.setText("0");
+        diceTypeSpinner.setSelection(0);
+        rollTotalTextView.setText("");
+	}
 }

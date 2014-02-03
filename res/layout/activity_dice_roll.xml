@@ -95,7 +95,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight=".333"
-            android:text="@string/roll_reset"/>
+            android:text="@string/roll_reset"
+            android:onClick="reset"/>
         
     </LinearLayout>
 </LinearLayout>
